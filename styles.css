@@ -1,17 +1,20 @@
 #container {
-    width: 960px;
+    width: 500px;
     height:500px;
     margin: auto;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
+    justify-items: flex-start;
     background-color: blue;
+    border: 5px solid black;
 }
 
 .theDiv {
-    height: 60px;
-    width: 60px;
+    height: 7.8125px;
+    width: 7.8125px;
     background-color: purple;
+    flex: 1 1 auto;
 }
 
 .hover {
@@ -20,6 +23,6 @@
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 10px auto 10px auto;
 }
