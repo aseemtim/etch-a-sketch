@@ -1,13 +1,25 @@
 #container {
     width: 960px;
+    height:500px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-content: flex-start;
+    background-color: blue;
 }
 
 .theDiv {
     height: 60px;
     width: 60px;
     background-color: purple;
+}
+
+.hover {
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 10px auto;
 }
