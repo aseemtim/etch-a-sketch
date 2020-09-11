@@ -1,1 +1,3 @@
-Trying to make a Etch-a-Sketch with DOM.
+This app tries to mimick Etch-a-Sketch toy.
+Ony the container and buttons are made in HTML. Rest of the website is built using Javascript.
+I used Flexboard to make the grid appear as grid.

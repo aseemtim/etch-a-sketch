@@ -6,14 +6,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-items: flex-start;
-    background-color: blue;
     border: 5px solid black;
 }
 
 .theDiv {
     height: 7.8125px;
     width: 7.8125px;
-    background-color: purple;
+    background-color: silver;
     flex: 1 1 auto;
 }
 
